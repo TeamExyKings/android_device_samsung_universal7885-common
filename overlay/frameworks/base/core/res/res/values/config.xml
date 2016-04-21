@@ -57,6 +57,9 @@
         <item>lte:2097152,6294156,12582912,524288,1048576,2560000</item>
     </string-array>
     <bool translatable="false" name="config_wifi_dual_band_support">false</bool>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <integer name="config_screenBrightnessDoze">22</integer>
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm64/boot-framework.oat"</item>
         <item>"/system/framework/boot-framework.vdex"</item>
