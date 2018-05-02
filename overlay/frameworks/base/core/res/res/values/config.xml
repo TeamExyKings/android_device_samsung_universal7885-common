@@ -92,4 +92,6 @@
     </integer-array>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100%</fraction>
 </resources>
