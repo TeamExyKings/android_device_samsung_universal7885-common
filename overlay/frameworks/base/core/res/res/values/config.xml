@@ -91,4 +91,5 @@
         <item>40</item>
     </integer-array>
     <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 </resources>
