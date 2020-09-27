@@ -9,6 +9,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Init scripts
+PRODUCT_PACKAGES += \
+    init.samsung.rc \
+    init.samsungexynos7885.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
