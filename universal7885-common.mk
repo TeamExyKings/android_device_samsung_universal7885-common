@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     init.recovery.exynos7885.rc \
     fastbootd
 
+# SamsungDoze
+PRODUCT_PACKAGES += \
+    SamsungDoze
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
